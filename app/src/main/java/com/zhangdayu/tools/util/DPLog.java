@@ -1,9 +1,12 @@
-package com.zhangdayu.util.log;
+package com.zhangdayu.tools.util;
 
 import android.util.Log;
 
+import com.zhangdayu.tools.MyApplication;
+
 /**
  * Created by Administrator on 2017/4/18.
+ *
  */
 
 public class DPLog {

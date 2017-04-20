@@ -1,4 +1,4 @@
-package com.zhangdayu.util;
+package com.zhangdayu.tools;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

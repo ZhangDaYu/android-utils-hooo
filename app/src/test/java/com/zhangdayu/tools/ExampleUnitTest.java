@@ -1,4 +1,4 @@
-package com.zhangdayu.util;
+package com.zhangdayu.tools;
 
 import org.junit.Test;
 

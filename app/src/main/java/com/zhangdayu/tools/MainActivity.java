@@ -1,9 +1,9 @@
-package com.zhangdayu.util.log;
+package com.zhangdayu.tools;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.zhangdayu.util.R;
+import com.zhangdayu.tools.util.DPLog;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -13,13 +13,15 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //日志工具类的使用示例
-        useLogUtilExample();
+        logUtilExample();
+
+
     }
 
     /**
      * 日志工具类的使用示例
      */
-    private void useLogUtilExample() {
+    private void logUtilExample() {
         DPLog.print(DPLog.LOG_VERBOSE, "this is verbose log");
         DPLog.print(DPLog.LOG_DEBUG, "this is debug log");
         DPLog.print(DPLog.LOG_INFO, "this is info log");
